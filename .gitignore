@@ -1,0 +1,9 @@
+# dependencies 
+
+frontend/node_modules
+backend/node_modules
+
+# environment files
+ 
+frontend/.env 
+backend/.env
