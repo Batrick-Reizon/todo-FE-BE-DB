@@ -31,6 +31,11 @@ function App()
     // Fruit Add
     const handleadd = () =>
     {
+        if(!einput.trim()){
+            alert("Enter any task to add todo list")
+            return
+        }
+
         var addfruit = axios.post(`${API}/addfruit`, {newfruit:einput})
         addfruit.then((res) =>
         {
